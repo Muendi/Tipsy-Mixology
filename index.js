@@ -48,9 +48,6 @@ const handleSearch =  async () =>{
 
 }
 
-
-
-
 document.getElementById('form-submit').addEventListener("submit", (e) => {
   e.preventDefault();
   console.log("form submit",e)
@@ -62,24 +59,4 @@ document.getElementById('form-submit').addEventListener("submit", (e) => {
 document.getElementById('input-name').value = ""
 document.getElementById('input-review').value = ""
 
-  // handle submit
 });
-
-//   
-// getCocktailData();
-
-
-/*
-
-// SEARCH BUTTON
-// Adding reference to the search button
-const searchBtn = document.getElementById("search-btn");
-const searchInput = document.getElementById("search-cocktail");
-
-// event listener to the search button
-searchBtn.addEventListener("click", async () =>{
-
-    // getting user input from the search bar
-    const userInput = searchInput.value; 
-
-}); */
