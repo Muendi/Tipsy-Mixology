@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tipsy Mixology - Alcoholic Cocktails</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  
+  <nav>
+    <div class="logo">
+        <img src="/images/Final Logo.png" alt="Tipsy Mixology Logo">
+    </div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about" id="about-link">About</a></li>
+      <li><a href="#get-started">Get started</a></li>
+      <li><a href="#all-recipes">All Recipes</a></li>
+      <li><a href="#review">Reviews</a></li>
+      <li>
+        <div class="search-bar">
+          <input type="text" id="search-cocktail" placeholder="Search cocktails...">
+          <button id ="search-btn">Search</button>
+        </div>
+      </li>
+    </ul>
+  </nav>
+ 
+  <header class="hero">
+    <div class="moving-images-container">
+      <div class="moving-image"></div>
+      <div class="moving-image"></div>
+    </div>
+  </header>
+
+<!--This is the about section of the webpage-->
+  <section id="about" class="about-section">
+    <h2>About</h2>
+    <p>Welcome to Tipsy Mixology, your go-to source for a delightful collection of alcoholic cocktail recipes. Whether you're an experienced bartender or a home enthusiast, we have handpicked and curated a selection of cocktail recipes that will inspire you to create your own signature drinks.</p>
+    <p>At Tipsy Mixology, we believe that mixology is an art form, and we're passionate about sharing the secrets behind crafting the perfect cocktail. Our recipes are carefully crafted, taking into account flavors, textures, and aesthetics, ensuring a delightful experience for every sip.</p>
+    <p>Join us on this journey of mixology and elevate your bartending skills to new heights. Cheers to creativity and innovation!</p>
+  </section>
+
+<!--Get started section-->
+<section id="get-started" class="get-started-section">
+    <h2>Get started</h2>
+    <p>Are you ready to explore a world of cocktails? </p>
+    <ol>
+        <li>Type the name of your favorite cocktail in the search bar</li>
+        <li>Hit the "Search" button</li>
+        <li>Tap on the recipe that catches your eye to view the full recipe</li>
+        <li>Get that party started 🎉</li>
+        <li>Don't forget to leave a review and your recommendation !</li>
+    </ol>
+    <button>Koroga🍸</button>
+</section>
+
+<!-- Cocktail Cards -->
+<div class="cocktail">
+  <img src="" alt="Cocktail Image">
+  <h3>Cocktail Name</h3>
+  <button class="open-modal-button">View Details</button>
+</div>
+
+<div class="cocktail">
+  <img src="" alt="Cocktail Image">
+  <h3>Cocktail Name</h3>
+  <button class="open-modal-button">View Details</button>
+</div>
+
+<div class="cocktail">
+  <img src="" alt="Cocktail Image">
+  <h3>Cocktail Name</h3>
+  <button class="open-modal-button">View Details</button>
+</div>
+
+<!--This is the reviews section-->
+  <section id="review" class="review-section">
+    <h2>User Reviews</h2>    
+    <div class="review">
+        <h4>Michelle</h4>
+        <p>Amazing cocktail recipes !!! You should definitely try them.</p>
+    </div>
+    <div class="review">
+        <h4>Joanne</h4>
+        <p>You can make a fire cocktail recipe with basic ingredients from your fridge. Big up !</p>
+    </div>
+
+    <div class ="review-form">
+        <h3>Your review here 👇</h3>
+    <form>
+        <input type="text" name="name" placeholder="Your name" required>
+        <textarea name="review" placeholder="Your Review" required></textarea>
+        <button type="submit">Submit Review</button>
+    </form>
+  </section>
+
+
+
+
+  <div id="cocktail-list">
+    <!-- Cocktails will be dynamically added here -->
+  </div>
+
+  
+  <footer class="footer">
+    <p>&copy; 2023 Tipsy Mixology. All rights reserved. | Made with ❤️ by Muendi</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
