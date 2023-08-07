@@ -124,21 +124,25 @@ h1 {
 }
 
 .get-started-section p{
-  font-size: 16px;
+  font-size: 18px;
   color: #555;
   line-height: 1.6;
   margin-bottom: 20px;
   margin: 0 auto;
   font-style: italic;
+  font-weight: bold;
   max-width: 800px;
   margin-bottom: 10px;
 }
-.get-started-section ol{
+.get-started-section ol,
+.get-started-section ul{
   font-size: 14px;
   margin: 0 auto;
   padding-left: 0;
   max-width: 600px;
   text-align: center;
+  list-style: none;
+  padding: 0;
 
 }
 .get-started-section ol li{
@@ -147,7 +151,6 @@ h1 {
   line-height: 1.6;
   margin-bottom: 10px;
   display: list-item;
-  list-style-type: disc;
 
 }
 .get-started-section button{
